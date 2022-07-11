@@ -1,0 +1,11 @@
+*.tfstate
+*.tfstate.backup
+*.swp
+*.swo
+.terraform
+.terraform.lock*
+node_modules
+
+# never check these in!
+id_*
+mcuddy_token.sh
