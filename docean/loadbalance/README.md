@@ -6,6 +6,7 @@ in Digital Ocean's cloud.  The main grunt work is done by the module
 of the cluster.
 
 ## Files
+
 * `docean_service_instance`    
   A helper module which create the compute hosts and their load balancer.  
   Configures the load balancer to point to a blue or green instance.
@@ -19,3 +20,4 @@ of the cluster.
 * `service.tf`    
   Invokes the `docean_service_instance` module to "do the dirty work" in
   creating a service cluster with compute resources and a load balancer. 
+
